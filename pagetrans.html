@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hello Parcel</title>
+    <link rel="stylesheet" href="transition.scss">
+</head>
+<body>
+    <nav class="nav-list">
+        <li><a class="nav-links" href="pagetrans.html">Home</a></li>
+        <li><a class="nav-links" href="about.html">About</a></li>
+        <li><a class="nav-links" href="#">Contact</a></li>
+    </nav>
+ <!-- to run this file in terminal parcel pagetrans.html -->
+    <main data-router-wrapper>
+        <section data-router-view="home" class="home">
+            <div class="home-content">
+                <div class="home-presentation">
+                    <h1>Seamless Transition</h1>
+                    <p>Beautiful transition between pages</p>
+                </div>  
+                <img src="home.svg" alt="" srcset="">
+            </div>
+        </section>
+    </main>
+
+
+<!-- pages pagetrans/ transiton.scss/ about.html/ index.js/ trans.js-->
+
+    <script src="index.js"></script>
+</body>
+</html>
